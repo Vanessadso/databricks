@@ -4,6 +4,11 @@ spark.sql("SET spark.databricks.delta.schema.autoMerge.enabled = true")
 
 # COMMAND ----------
 
+# MAGIC %sql
+# MAGIC select * from bronze.crimes_vanessa
+
+# COMMAND ----------
+
 # File location and type
 
 name = 'vanessa'
